@@ -64,7 +64,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
     techStack: ["GSAP", "ReactJs", "Tailwind CSS"],
     imgSrc: project3,
-    link: "https://myportfolio.com",
+    link: "https://portfolio-plum-xi-63.vercel.app/",
   },
   {
     id: 4,
