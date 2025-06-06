@@ -36,12 +36,12 @@ const Navbar = () => {
             </a>
           </div>
           <div>
-            <ul className="flex items-center gap-4">
+            <ul className="flex items-center gap-6">
               {NAVIGATION_LINKS.map((item, index) => (
                 <li key={index}>
                   <a
                     href={item.href}
-                    className="text-sm hover:text-stone-300"
+                    className="text-lg hover:text-stone-300"
                     onClick={(e) => handleLinkClick(e, item.href)}
                   >
                     {item.label}
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
         {/* Mobile Menu */}
         <div
-          className={`py-2 lg-hidden ${
+          className={`py-2 lg:hidden ${
             isMobileMenuOpen ? "backdrop-blur-md" : ""
           }`}
         >
