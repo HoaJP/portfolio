@@ -68,7 +68,7 @@ const Hero = () => {
         <h1 className="hero-title text-4xl uppercase lg:text-7xl">
           {PROFILE.name}
         </h1>
-        <h2 className="hero-subheading bg-gradient-to-b from-pink-200 to-purple-300 bg-clip-text text-center text-2xl tracking-tighter text-transparent">
+        <h2 className="hero-subheading bg-gradient-to-b from-pink-200 to-purple-500 bg-clip-text text-center text-2xl tracking-tighter text-transparent">
           {PROFILE.role}
         </h2>
       </div>
@@ -78,7 +78,7 @@ const Hero = () => {
       <a
         href="/public/public/Luong-Manh-Hoa CV.pdf"
         target="_blank"
-        rel="nooperner noreferer"
+        rel="nooperner noreferrer"
         download
         className="hero-btn mb-6 flex gap-1 rounded-full border border-pink-200/50 px-3 py-2 tracking-tighter"
       >

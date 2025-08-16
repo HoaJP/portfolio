@@ -11,16 +11,12 @@ import {
   RiCss3Line,
   RiJavascriptLine,
   RiReactjsLine,
-  RiNodeTree,
-  RiVuejsFill,
+  RiNodejsLine,
   RiVuejsLine,
+  RiFigmaLine,
+  RiAngularjsLine,
   RiTailwindCssFill,
   RiBootstrapFill,
-} from "@remixicon/react";
-import {
-  RiDatabaseLine,
-  RiCodeSSlashLine,
-  RiGitBranchLine,
 } from "@remixicon/react";
 
 export const NAVIGATION_LINKS = [
@@ -91,16 +87,28 @@ export const SKILLS = [
     icon: <RiJavascriptLine className="text-yellow-500" />,
   },
   {
+    name: "TypeScript",
+    icon: <RiJavascriptLine className="text-yellow-500" />,
+  },
+  {
     name: "React",
     icon: <RiReactjsLine className="text-blue-400" />,
   },
   {
     name: "Node.js",
-    icon: <RiNodeTree className="text-green-500" />,
+    icon: <RiNodejsLine className="text-green-500" />,
   },
   {
     name: "VueJs",
     icon: <RiVuejsLine className="text-green-600" />,
+  },
+  {
+    name: "Angular",
+    icon: <RiAngularjsLine className="text-red-600" />,
+  },
+  {
+    name: "Figma",
+    icon: <RiFigmaLine className="text-orange-600" />,
   },
   {
     name: "Tailwind CSS",

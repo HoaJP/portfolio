@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <div>
               <a href="#">
-                <span className="pl-2 uppercase"></span>
+                <span className="pl-2 uppercase">HOA</span>
               </a>
             </div>
             <div className="flex items-center">

@@ -58,7 +58,7 @@ const Testimonials = () => {
             className="testimonial-image mb-6 h-24 w-24 rounded-full border-4 object-cover"
             alt=""
           />
-          <blockquote className="testimonial-quote max-w-xl text-lg leading-relaxed lg:text-2xl">
+          <blockquote className="testimonial-quote max-w-xl text-lg  lg:text-2xl">
             &quot;{TESTIMONIAL.quote}&quot;
           </blockquote>
           <div className="testimonial-info mt-4 text-lg">
