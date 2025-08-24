@@ -76,7 +76,7 @@ const Hero = () => {
         {PROFILE.subheading}
       </p>
       <a
-        href="/public/public/Luong-Manh-Hoa-TopCVvn.pdf"
+        href="/public/public/Luong-Manh-Hoa-TopCV.vn-250825.02307.pdf"
         target="_blank"
         rel="nooperner noreferrer"
         download
